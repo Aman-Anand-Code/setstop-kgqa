@@ -1,0 +1,439 @@
+{
+  "notebook": "17_WebQSP_CWQ_Final_Paper_Results.ipynb",
+  "code_version": "setstop_two_dataset_paper_v1_0",
+  "runtime": "CPU",
+  "model_inference_performed": false,
+  "thresholds_modified": false,
+  "question_counts": {
+    "WebQSP": 736,
+    "CWQ": 495
+  },
+  "main_results": [
+    {
+      "dataset": "WebQSP",
+      "method": "Relation fixed (cap 6)",
+      "setting": "Sequential search",
+      "questions": 736,
+      "maximum_action_cap": 6,
+      "macro_precision": 0.25034859985881636,
+      "macro_recall": 0.3708763312166268,
+      "macro_f1": 0.27060042669854745,
+      "micro_f1": 0.3923941227312014,
+      "exact_match": 0.11413043478260869,
+      "complete_recall": 0.327445652173913,
+      "mean_actions": 6.0,
+      "mean_retrieved_edges": 95.18614130434783
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "Relation fixed (cap 12)",
+      "setting": "Sequential search",
+      "questions": 736,
+      "maximum_action_cap": 12,
+      "macro_precision": 0.2683077894324402,
+      "macro_recall": 0.446064955332281,
+      "macro_f1": 0.30168211579502113,
+      "micro_f1": 0.38660217212740716,
+      "exact_match": 0.11277173913043478,
+      "complete_recall": 0.40625,
+      "mean_actions": 12.0,
+      "mean_retrieved_edges": 148.55570652173913
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "Learned ranker (cap 6)",
+      "setting": "Sequential search",
+      "questions": 736,
+      "maximum_action_cap": 6,
+      "macro_precision": 0.28292774856265457,
+      "macro_recall": 0.4105350469408729,
+      "macro_f1": 0.30301645411932,
+      "micro_f1": 0.410631503039044,
+      "exact_match": 0.13179347826086957,
+      "complete_recall": 0.38315217391304346,
+      "mean_actions": 6.0,
+      "mean_retrieved_edges": 105.46739130434783
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "Learned ranker (cap 12)",
+      "setting": "Sequential search",
+      "questions": 736,
+      "maximum_action_cap": 12,
+      "macro_precision": 0.30468320145273753,
+      "macro_recall": 0.4965766006150781,
+      "macro_f1": 0.3383718790119147,
+      "micro_f1": 0.4147545242012295,
+      "exact_match": 0.12771739130434784,
+      "complete_recall": 0.4592391304347826,
+      "mean_actions": 12.0,
+      "mean_retrieved_edges": 171.0366847826087
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "SetStop (max 12)",
+      "setting": "Sequential search",
+      "questions": 736,
+      "maximum_action_cap": 12,
+      "macro_precision": 0.3825526979679622,
+      "macro_recall": 0.4359092222506889,
+      "macro_f1": 0.38563954842883136,
+      "micro_f1": 0.47224576271186447,
+      "exact_match": 0.27717391304347827,
+      "complete_recall": 0.39266304347826086,
+      "mean_actions": 5.952445652173913,
+      "mean_retrieved_edges": 110.2758152173913
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "Oracle ranker",
+      "setting": "Gold-based ranking diagnostic",
+      "questions": 736,
+      "maximum_action_cap": 12,
+      "macro_precision": 0.4642739594393866,
+      "macro_recall": 0.5280161917101674,
+      "macro_f1": 0.469762183852559,
+      "micro_f1": 0.5980975029726516,
+      "exact_match": 0.3383152173913043,
+      "complete_recall": 0.47554347826086957,
+      "mean_actions": 8.097826086956522,
+      "mean_retrieved_edges": 166.3858695652174
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "NSM+h",
+      "setting": "Full question graph",
+      "questions": 736,
+      "maximum_action_cap": null,
+      "macro_precision": 0.7517981741649109,
+      "macro_recall": 0.8240501757356364,
+      "macro_f1": 0.7569768759691667,
+      "micro_f1": 0.6393638170974155,
+      "exact_match": 0.5081521739130435,
+      "complete_recall": 0.688858695652174,
+      "mean_actions": null,
+      "mean_retrieved_edges": 4619.741847826087
+    },
+    {
+      "dataset": "WebQSP",
+      "method": "ReaRev",
+      "setting": "Full question graph",
+      "questions": 736,
+      "maximum_action_cap": null,
+      "macro_precision": 0.8129191850116555,
+      "macro_recall": 0.857256997725106,
+      "macro_f1": 0.8122855046153665,
+      "micro_f1": 0.7650069799906933,
+      "exact_match": 0.5054347826086957,
+      "complete_recall": 0.6521739130434783,
+      "mean_actions": null,
+      "mean_retrieved_edges": 4619.741847826087
+    },
+    {
+      "dataset": "CWQ",
+      "method": "Relation fixed (cap 14)",
+      "setting": "Sequential search",
+      "questions": 495,
+      "maximum_action_cap": 14,
+      "macro_precision": 0.2869940209515972,
+      "macro_recall": 0.397639380821199,
+      "macro_f1": 0.2968111467069573,
+      "micro_f1": 0.3824148085822465,
+      "exact_match": 0.1696969696969697,
+      "complete_recall": 0.37575757575757573,
+      "mean_actions": 14.0,
+      "mean_retrieved_edges": 127.57979797979797
+    },
+    {
+      "dataset": "CWQ",
+      "method": "Relation fixed (cap 24)",
+      "setting": "Sequential search",
+      "questions": 495,
+      "maximum_action_cap": 24,
+      "macro_precision": 0.33341086237236806,
+      "macro_recall": 0.4746847260483624,
+      "macro_f1": 0.3511866054785599,
+      "micro_f1": 0.411640819452422,
+      "exact_match": 0.19595959595959597,
+      "complete_recall": 0.4505050505050505,
+      "mean_actions": 24.0,
+      "mean_retrieved_edges": 188.92727272727274
+    },
+    {
+      "dataset": "CWQ",
+      "method": "Learned ranker (cap 14)",
+      "setting": "Sequential search",
+      "questions": 495,
+      "maximum_action_cap": 14,
+      "macro_precision": 0.27781661705473765,
+      "macro_recall": 0.3969515501333683,
+      "macro_f1": 0.29975596444047087,
+      "micro_f1": 0.40080645161290324,
+      "exact_match": 0.18181818181818182,
+      "complete_recall": 0.38181818181818183,
+      "mean_actions": 14.0,
+      "mean_retrieved_edges": 94.12929292929293
+    },
+    {
+      "dataset": "CWQ",
+      "method": "Learned ranker (cap 24)",
+      "setting": "Sequential search",
+      "questions": 495,
+      "maximum_action_cap": 24,
+      "macro_precision": 0.32274809877285865,
+      "macro_recall": 0.48385029953211767,
+      "macro_f1": 0.35108304837230336,
+      "micro_f1": 0.399525584547611,
+      "exact_match": 0.20404040404040405,
+      "complete_recall": 0.46464646464646464,
+      "mean_actions": 24.0,
+      "mean_retrieved_edges": 150.17373737373737
+    },
+    {
+      "dataset": "CWQ",
+      "method": "SetStop (max 24)",
+      "setting": "Sequential search",
+      "questions": 495,
+      "maximum_action_cap": 24,
+      "macro_precision": 0.32975643263164633,
+      "macro_recall": 0.4120658970658971,
+      "macro_f1": 0.34255056411943113,
+      "micro_f1": 0.4394974652854309,
+      "exact_match": 0.2545454545454545,
+      "complete_recall": 0.3878787878787879,
+      "mean_actions": 14.123232323232322,
+      "mean_retrieved_edges": 91.38383838383838
+    }
+  ],
+  "matched_comparisons": {
+    "WebQSP": {
+      "questions": 736,
+      "setstop": {
+        "macro_precision": 0.3825526979679622,
+        "macro_recall": 0.4359092222506889,
+        "macro_f1": 0.38563954842883136,
+        "micro_f1": 0.47224576271186447,
+        "exact_match": 0.27717391304347827,
+        "complete_recall": 0.39266304347826086,
+        "mean_actions": 5.952445652173913,
+        "mean_retrieved_edges": 110.2758152173913
+      },
+      "fixed_ranker": {
+        "macro_precision": 0.28292774856265457,
+        "macro_recall": 0.4105350469408729,
+        "macro_f1": 0.30301645411932,
+        "micro_f1": 0.410631503039044,
+        "exact_match": 0.13179347826086957,
+        "complete_recall": 0.38315217391304346,
+        "mean_actions": 6.0,
+        "mean_retrieved_edges": 105.46739130434783
+      },
+      "differences": {
+        "macro_f1": {
+          "difference": 0.08262309430951136,
+          "ci95": [
+            0.0626760218944215,
+            0.1036155334149805
+          ]
+        },
+        "macro_precision": {
+          "difference": 0.09962494940530768,
+          "ci95": [
+            0.0777220403648908,
+            0.12198819622039503
+          ]
+        },
+        "macro_recall": {
+          "difference": 0.025374175309816043,
+          "ci95": [
+            0.003799562479258917,
+            0.04731136663143777
+          ]
+        },
+        "exact_match": {
+          "difference": 0.1453804347826087,
+          "ci95": [
+            0.11820652173913043,
+            0.1725883152173908
+          ]
+        },
+        "complete_recall": {
+          "difference": 0.009510869565217392,
+          "ci95": [
+            -0.012228260869565218,
+            0.03125
+          ]
+        },
+        "mean_actions": {
+          "difference": -0.04755434782608696,
+          "ci95": [
+            -0.3858695652173913,
+            0.2867187499999995
+          ]
+        },
+        "mean_retrieved_edges": {
+          "difference": 4.8084239130434785,
+          "ci95": [
+            -1.9104619565217391,
+            11.65934103260869
+          ]
+        }
+      },
+      "matching": "Approximately matched mean actions; edge costs are reported separately."
+    },
+    "CWQ": {
+      "questions": 495,
+      "setstop": {
+        "macro_precision": 0.32975643263164633,
+        "macro_recall": 0.4120658970658971,
+        "macro_f1": 0.34255056411943113,
+        "micro_f1": 0.4394974652854309,
+        "exact_match": 0.2545454545454545,
+        "complete_recall": 0.3878787878787879,
+        "mean_actions": 14.123232323232322,
+        "mean_retrieved_edges": 91.38383838383838
+      },
+      "fixed_ranker": {
+        "macro_precision": 0.27781661705473765,
+        "macro_recall": 0.3969515501333683,
+        "macro_f1": 0.29975596444047087,
+        "micro_f1": 0.40080645161290324,
+        "exact_match": 0.18181818181818182,
+        "complete_recall": 0.38181818181818183,
+        "mean_actions": 14.0,
+        "mean_retrieved_edges": 94.12929292929293
+      },
+      "differences": {
+        "macro_f1": {
+          "difference": 0.042794599678960314,
+          "ci95": [
+            0.01864972653591598,
+            0.06855553326451662
+          ]
+        },
+        "macro_precision": {
+          "difference": 0.05193981557690863,
+          "ci95": [
+            0.028643945481332856,
+            0.07678604322648983
+          ]
+        },
+        "macro_recall": {
+          "difference": 0.015114346932528751,
+          "ci95": [
+            -0.014251606978879703,
+            0.045225250338886705
+          ]
+        },
+        "exact_match": {
+          "difference": 0.07272727272727272,
+          "ci95": [
+            0.046464646464646465,
+            0.10101010101010101
+          ]
+        },
+        "complete_recall": {
+          "difference": 0.006060606060606061,
+          "ci95": [
+            -0.024242424242424242,
+            0.03636363636363636
+          ]
+        },
+        "mean_actions": {
+          "difference": 0.12323232323232323,
+          "ci95": [
+            -0.6808080808080809,
+            0.9373737373737374
+          ]
+        },
+        "mean_retrieved_edges": {
+          "difference": -2.7454545454545456,
+          "ci95": [
+            -8.778080808080809,
+            3.6025757575757495
+          ]
+        }
+      },
+      "matching": "Approximately matched mean actions; edge costs are reported separately."
+    }
+  },
+  "settings": [
+    {
+      "dataset": "WebQSP",
+      "test_questions": 736,
+      "max_hops": 3,
+      "frontier_limit": 16,
+      "maximum_action_cap": 12,
+      "fixed_reference_cap": 6,
+      "controller_threshold": 0.7100000000000001,
+      "answer_threshold": 0.6699999999999999
+    },
+    {
+      "dataset": "CWQ",
+      "test_questions": 495,
+      "max_hops": 4,
+      "frontier_limit": 128,
+      "maximum_action_cap": 24,
+      "fixed_reference_cap": 14,
+      "controller_threshold": 0.853,
+      "answer_threshold": 0.96
+    }
+  ],
+  "cwq_vs_24_action_ranker": {
+    "action_reduction_percent": 41.15319865319866,
+    "edge_reduction_percent": 39.147922944468355,
+    "f1_difference": -0.00853248425287223,
+    "f1_ci95": [
+      -0.02389467386180601,
+      0.006980962215581884
+    ]
+  },
+  "cwq_search_error_diagnostic": {
+    "missed_gold_answers": 1186,
+    "unvisited_gold_answers": 1061,
+    "unvisited_fraction_of_misses": 0.8946037099494097
+  },
+  "figure_export": "vector PDF",
+  "paper_claims": {
+    "supported": "Adaptive search improves macro F1 and exact match over the same fixed-budget learned ranker at approximately matched mean actions on both selected datasets.",
+    "completeness": "No statistically conclusive complete-recall gain at the matched budgets.",
+    "external_baselines": "NSM+h and ReaRev remain stronger WebQSP accuracy baselines and are retained.",
+    "costs": "Actions and edges are reported separately; approximately matched actions do not imply identical edge costs.",
+    "transfer": "CWQ models were trained separately; this is not zero-shot checkpoint transfer.",
+    "avoid": [
+      "Guaranteed answer-set completeness",
+      "State-of-the-art KGQA accuracy",
+      "Equivalent accuracy from a confidence interval that includes zero",
+      "Latency or FLOPs improvements inferred from exposed-edge counts",
+      "Full-dataset benchmark claims for selected multi-answer subsets"
+    ]
+  },
+  "audit_checks": [
+    "Inventory verified: cost_matched_ablation_v1",
+    "Inventory verified: final_paper_analysis_v1",
+    "Inventory verified: cwq_test_evaluation_v1",
+    "All 2475 CWQ per-question records and macro/micro point estimates verified.",
+    "WebQSP saved summaries, cap-6 comparison, and original SetStop metrics agree."
+  ],
+  "source_sha256": {
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cost_matched_ablation_v1/cost_matched_ablation_summary_v1.json": "906d2976ea985befb9ad2e81ed46bed05a0f865207ab2bbb72d84bb8211ad70f",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cost_matched_ablation_v1/paired_bootstrap_cost_matched_v1.json": "acb3a6b5d74c846bb0f548a2b441d203311810abb224dc8eaafaffddefc9077b",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cost_matched_ablation_v1/test_budget_results_v1.csv": "cc23b09efa1f4d854d600cdaa96f4bd04f6b90133024eedb24eeccd4caa1d5cf",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/final_paper_analysis_v1/final_paper_analysis_summary_v1.json": "b1d0f9e51325e192a29369e94d8107103eaddc793a8fe17f670eaa81952363ad",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/end_to_end_test_v1/end_to_end_summary_v1.json": "91cd0383c31380dcb03d2e244c81a75b5d6d0e255986afe48ef9dc519eeaa66c",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/external_baselines_v1/external_baseline_summary_v1.json": "6f1596caf117754a1d1cf946bb0bdf4c90e467bd94ba84b5088e6dd979e65c21",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cwq_test_evaluation_v1/cwq_test_summary_v1.json": "185a1fe24f2b45168d183d23b75871f23a9490f98a6c31e020c7087e0b3b1ee9",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cwq_test_evaluation_v1/cwq_test_paired_comparisons_v1.json": "38f39d02cf742a214c090819d4f0875cc427d6659dc620ede9388fdbf46445d3",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cost_matched_ablation_v1/artifact_inventory_v1.json": "b7ef320cc41c5421fa2732b6155bd7df9c1626c0f9bafc63d794d99cfc5cffe1",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/final_paper_analysis_v1/artifact_inventory_v1.json": "bed6f498fe91ea0e622879930540caec3cedc3eb9725129e543e9b6333d36ef3",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cwq_test_evaluation_v1/artifact_inventory_v1.json": "3ac98cf4c3d848175d42de548ba651e992f38f3141765ebcf8789da205af0e4d",
+    "/content/drive/MyDrive/SetStop_KGQA/outputs/cwq_test_evaluation_v1/cwq_test_per_question_v1.jsonl": "31d460b62774f64cf585858794161e544c5a43dd6be09f78c6775454ae15e951"
+  },
+  "runtime_seconds": 1.4233002662658691,
+  "notes": [
+    "No saved test operating point was changed.",
+    "Existing paired confidence intervals were reused, not selected or tuned.",
+    "WebQSP cap 6 follows the archived rounded-cost reference; CWQ cap 14 was selected from development mean actions.",
+    "This consolidation runtime is not model inference latency."
+  ]
+}

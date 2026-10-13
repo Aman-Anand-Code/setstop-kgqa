@@ -1,0 +1,911 @@
+{
+  "selection_split": "development",
+  "selection_rule": "maximize STOP F1, then minimize premature stopping, then maximize accuracy",
+  "selected_threshold": 0.7100000000000001,
+  "selected_threshold_metrics": {
+    "threshold": 0.7100000000000001,
+    "stop_precision": 0.8604651162790697,
+    "stop_recall": 0.9135802469135802,
+    "stop_f1": 0.8862275449101796,
+    "accuracy": 0.9803921568627451,
+    "premature_stop_rate": 0.01238390092879257,
+    "over_search_rate": 0.007223942208462332
+  },
+  "number_of_dev_states": 969,
+  "number_of_true_stop_states": 81,
+  "number_of_true_continue_states": 888,
+  "stop_brier_score": 0.017596933111401817,
+  "threshold_results": [
+    {
+      "threshold": 0.01,
+      "stop_precision": 1.0,
+      "stop_recall": 0.06172839506172839,
+      "stop_f1": 0.11627906976744186,
+      "accuracy": 0.9215686274509803,
+      "premature_stop_rate": 0.0,
+      "over_search_rate": 0.0784313725490196
+    },
+    {
+      "threshold": 0.02,
+      "stop_precision": 1.0,
+      "stop_recall": 0.09876543209876543,
+      "stop_f1": 0.1797752808988764,
+      "accuracy": 0.9246646026831785,
+      "premature_stop_rate": 0.0,
+      "over_search_rate": 0.07533539731682147
+    },
+    {
+      "threshold": 0.03,
+      "stop_precision": 1.0,
+      "stop_recall": 0.12345679012345678,
+      "stop_f1": 0.21978021978021978,
+      "accuracy": 0.9267285861713106,
+      "premature_stop_rate": 0.0,
+      "over_search_rate": 0.07327141382868937
+    },
+    {
+      "threshold": 0.04,
+      "stop_precision": 1.0,
+      "stop_recall": 0.13580246913580246,
+      "stop_f1": 0.2391304347826087,
+      "accuracy": 0.9277605779153767,
+      "premature_stop_rate": 0.0,
+      "over_search_rate": 0.07223942208462332
+    },
+    {
+      "threshold": 0.05,
+      "stop_precision": 1.0,
+      "stop_recall": 0.16049382716049382,
+      "stop_f1": 0.2765957446808511,
+      "accuracy": 0.9298245614035088,
+      "premature_stop_rate": 0.0,
+      "over_search_rate": 0.07017543859649122
+    },
+    {
+      "threshold": 0.060000000000000005,
+      "stop_precision": 0.9473684210526315,
+      "stop_recall": 0.2222222222222222,
+      "stop_f1": 0.36,
+      "accuracy": 0.9339525283797729,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.06501547987616099
+    },
+    {
+      "threshold": 0.06999999999999999,
+      "stop_precision": 0.95,
+      "stop_recall": 0.2345679012345679,
+      "stop_f1": 0.37623762376237624,
+      "accuracy": 0.934984520123839,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.06398348813209494
+    },
+    {
+      "threshold": 0.08,
+      "stop_precision": 0.9545454545454546,
+      "stop_recall": 0.25925925925925924,
+      "stop_f1": 0.4077669902912621,
+      "accuracy": 0.9370485036119711,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.06191950464396285
+    },
+    {
+      "threshold": 0.09,
+      "stop_precision": 0.96,
+      "stop_recall": 0.2962962962962963,
+      "stop_f1": 0.4528301886792453,
+      "accuracy": 0.9401444788441693,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.058823529411764705
+    },
+    {
+      "threshold": 0.09999999999999999,
+      "stop_precision": 0.9655172413793104,
+      "stop_recall": 0.345679012345679,
+      "stop_f1": 0.509090909090909,
+      "accuracy": 0.9442724458204335,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.054695562435500514
+    },
+    {
+      "threshold": 0.11,
+      "stop_precision": 0.9666666666666667,
+      "stop_recall": 0.35802469135802467,
+      "stop_f1": 0.5225225225225225,
+      "accuracy": 0.9453044375644994,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.053663570691434466
+    },
+    {
+      "threshold": 0.12,
+      "stop_precision": 0.9666666666666667,
+      "stop_recall": 0.35802469135802467,
+      "stop_f1": 0.5225225225225225,
+      "accuracy": 0.9453044375644994,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.053663570691434466
+    },
+    {
+      "threshold": 0.13,
+      "stop_precision": 0.967741935483871,
+      "stop_recall": 0.37037037037037035,
+      "stop_f1": 0.5357142857142857,
+      "accuracy": 0.9463364293085655,
+      "premature_stop_rate": 0.0010319917440660474,
+      "over_search_rate": 0.05263157894736842
+    },
+    {
+      "threshold": 0.14,
+      "stop_precision": 0.9393939393939394,
+      "stop_recall": 0.38271604938271603,
+      "stop_f1": 0.543859649122807,
+      "accuracy": 0.9463364293085655,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.05159958720330237
+    },
+    {
+      "threshold": 0.15000000000000002,
+      "stop_precision": 0.9428571428571428,
+      "stop_recall": 0.4074074074074074,
+      "stop_f1": 0.5689655172413793,
+      "accuracy": 0.9484004127966976,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.04953560371517028
+    },
+    {
+      "threshold": 0.16,
+      "stop_precision": 0.9459459459459459,
+      "stop_recall": 0.43209876543209874,
+      "stop_f1": 0.5932203389830508,
+      "accuracy": 0.9504643962848297,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.047471620227038186
+    },
+    {
+      "threshold": 0.17,
+      "stop_precision": 0.95,
+      "stop_recall": 0.4691358024691358,
+      "stop_f1": 0.628099173553719,
+      "accuracy": 0.9535603715170279,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.04437564499484004
+    },
+    {
+      "threshold": 0.18000000000000002,
+      "stop_precision": 0.9534883720930233,
+      "stop_recall": 0.5061728395061729,
+      "stop_f1": 0.6612903225806451,
+      "accuracy": 0.9566563467492261,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.0412796697626419
+    },
+    {
+      "threshold": 0.19,
+      "stop_precision": 0.9555555555555556,
+      "stop_recall": 0.5308641975308642,
+      "stop_f1": 0.6825396825396826,
+      "accuracy": 0.9587203302373581,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.0392156862745098
+    },
+    {
+      "threshold": 0.2,
+      "stop_precision": 0.9565217391304348,
+      "stop_recall": 0.5432098765432098,
+      "stop_f1": 0.6929133858267716,
+      "accuracy": 0.9597523219814241,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.038183694530443756
+    },
+    {
+      "threshold": 0.21000000000000002,
+      "stop_precision": 0.9583333333333334,
+      "stop_recall": 0.5679012345679012,
+      "stop_f1": 0.7131782945736435,
+      "accuracy": 0.9618163054695562,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.03611971104231166
+    },
+    {
+      "threshold": 0.22,
+      "stop_precision": 0.9591836734693877,
+      "stop_recall": 0.5802469135802469,
+      "stop_f1": 0.7230769230769231,
+      "accuracy": 0.9628482972136223,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.03508771929824561
+    },
+    {
+      "threshold": 0.23,
+      "stop_precision": 0.9591836734693877,
+      "stop_recall": 0.5802469135802469,
+      "stop_f1": 0.7230769230769231,
+      "accuracy": 0.9628482972136223,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.03508771929824561
+    },
+    {
+      "threshold": 0.24000000000000002,
+      "stop_precision": 0.9591836734693877,
+      "stop_recall": 0.5802469135802469,
+      "stop_f1": 0.7230769230769231,
+      "accuracy": 0.9628482972136223,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.03508771929824561
+    },
+    {
+      "threshold": 0.25,
+      "stop_precision": 0.9591836734693877,
+      "stop_recall": 0.5802469135802469,
+      "stop_f1": 0.7230769230769231,
+      "accuracy": 0.9628482972136223,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.03508771929824561
+    },
+    {
+      "threshold": 0.26,
+      "stop_precision": 0.9591836734693877,
+      "stop_recall": 0.5802469135802469,
+      "stop_f1": 0.7230769230769231,
+      "accuracy": 0.9628482972136223,
+      "premature_stop_rate": 0.0020639834881320948,
+      "over_search_rate": 0.03508771929824561
+    },
+    {
+      "threshold": 0.27,
+      "stop_precision": 0.94,
+      "stop_recall": 0.5802469135802469,
+      "stop_f1": 0.7175572519083969,
+      "accuracy": 0.9618163054695562,
+      "premature_stop_rate": 0.0030959752321981426,
+      "over_search_rate": 0.03508771929824561
+    },
+    {
+      "threshold": 0.28,
+      "stop_precision": 0.9423076923076923,
+      "stop_recall": 0.6049382716049383,
+      "stop_f1": 0.7368421052631579,
+      "accuracy": 0.9638802889576883,
+      "premature_stop_rate": 0.0030959752321981426,
+      "over_search_rate": 0.033023735810113516
+    },
+    {
+      "threshold": 0.29000000000000004,
+      "stop_precision": 0.9423076923076923,
+      "stop_recall": 0.6049382716049383,
+      "stop_f1": 0.7368421052631579,
+      "accuracy": 0.9638802889576883,
+      "premature_stop_rate": 0.0030959752321981426,
+      "over_search_rate": 0.033023735810113516
+    },
+    {
+      "threshold": 0.3,
+      "stop_precision": 0.9433962264150944,
+      "stop_recall": 0.6172839506172839,
+      "stop_f1": 0.746268656716418,
+      "accuracy": 0.9649122807017544,
+      "premature_stop_rate": 0.0030959752321981426,
+      "over_search_rate": 0.03199174406604747
+    },
+    {
+      "threshold": 0.31,
+      "stop_precision": 0.9298245614035088,
+      "stop_recall": 0.654320987654321,
+      "stop_f1": 0.7681159420289855,
+      "accuracy": 0.9669762641898865,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.02889576883384933
+    },
+    {
+      "threshold": 0.32,
+      "stop_precision": 0.9333333333333333,
+      "stop_recall": 0.691358024691358,
+      "stop_f1": 0.7943262411347518,
+      "accuracy": 0.9700722394220846,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.025799793601651185
+    },
+    {
+      "threshold": 0.33,
+      "stop_precision": 0.9333333333333333,
+      "stop_recall": 0.691358024691358,
+      "stop_f1": 0.7943262411347518,
+      "accuracy": 0.9700722394220846,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.025799793601651185
+    },
+    {
+      "threshold": 0.34,
+      "stop_precision": 0.9333333333333333,
+      "stop_recall": 0.691358024691358,
+      "stop_f1": 0.7943262411347518,
+      "accuracy": 0.9700722394220846,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.025799793601651185
+    },
+    {
+      "threshold": 0.35000000000000003,
+      "stop_precision": 0.9333333333333333,
+      "stop_recall": 0.691358024691358,
+      "stop_f1": 0.7943262411347518,
+      "accuracy": 0.9700722394220846,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.025799793601651185
+    },
+    {
+      "threshold": 0.36000000000000004,
+      "stop_precision": 0.9344262295081968,
+      "stop_recall": 0.7037037037037037,
+      "stop_f1": 0.8028169014084507,
+      "accuracy": 0.9711042311661506,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.02476780185758514
+    },
+    {
+      "threshold": 0.37,
+      "stop_precision": 0.9344262295081968,
+      "stop_recall": 0.7037037037037037,
+      "stop_f1": 0.8028169014084507,
+      "accuracy": 0.9711042311661506,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.02476780185758514
+    },
+    {
+      "threshold": 0.38,
+      "stop_precision": 0.9344262295081968,
+      "stop_recall": 0.7037037037037037,
+      "stop_f1": 0.8028169014084507,
+      "accuracy": 0.9711042311661506,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.02476780185758514
+    },
+    {
+      "threshold": 0.39,
+      "stop_precision": 0.9344262295081968,
+      "stop_recall": 0.7037037037037037,
+      "stop_f1": 0.8028169014084507,
+      "accuracy": 0.9711042311661506,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.02476780185758514
+    },
+    {
+      "threshold": 0.4,
+      "stop_precision": 0.9365079365079365,
+      "stop_recall": 0.7283950617283951,
+      "stop_f1": 0.8194444444444444,
+      "accuracy": 0.9731682146542827,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.022703818369453045
+    },
+    {
+      "threshold": 0.41000000000000003,
+      "stop_precision": 0.9365079365079365,
+      "stop_recall": 0.7283950617283951,
+      "stop_f1": 0.8194444444444444,
+      "accuracy": 0.9731682146542827,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.022703818369453045
+    },
+    {
+      "threshold": 0.42000000000000004,
+      "stop_precision": 0.9375,
+      "stop_recall": 0.7407407407407407,
+      "stop_f1": 0.8275862068965517,
+      "accuracy": 0.9742002063983488,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.021671826625386997
+    },
+    {
+      "threshold": 0.43,
+      "stop_precision": 0.9375,
+      "stop_recall": 0.7407407407407407,
+      "stop_f1": 0.8275862068965517,
+      "accuracy": 0.9742002063983488,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.021671826625386997
+    },
+    {
+      "threshold": 0.44,
+      "stop_precision": 0.9393939393939394,
+      "stop_recall": 0.7654320987654321,
+      "stop_f1": 0.8435374149659864,
+      "accuracy": 0.9762641898864809,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.0196078431372549
+    },
+    {
+      "threshold": 0.45,
+      "stop_precision": 0.9393939393939394,
+      "stop_recall": 0.7654320987654321,
+      "stop_f1": 0.8435374149659864,
+      "accuracy": 0.9762641898864809,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.0196078431372549
+    },
+    {
+      "threshold": 0.46,
+      "stop_precision": 0.9402985074626866,
+      "stop_recall": 0.7777777777777778,
+      "stop_f1": 0.8513513513513513,
+      "accuracy": 0.977296181630547,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.018575851393188854
+    },
+    {
+      "threshold": 0.47000000000000003,
+      "stop_precision": 0.9411764705882353,
+      "stop_recall": 0.7901234567901234,
+      "stop_f1": 0.8590604026845637,
+      "accuracy": 0.978328173374613,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.017543859649122806
+    },
+    {
+      "threshold": 0.48000000000000004,
+      "stop_precision": 0.9420289855072463,
+      "stop_recall": 0.8024691358024691,
+      "stop_f1": 0.8666666666666667,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.016511867905056758
+    },
+    {
+      "threshold": 0.49,
+      "stop_precision": 0.9436619718309859,
+      "stop_recall": 0.8271604938271605,
+      "stop_f1": 0.881578947368421,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.0041279669762641896,
+      "over_search_rate": 0.014447884416924664
+    },
+    {
+      "threshold": 0.5,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.51,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.52,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.53,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.54,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.55,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.56,
+      "stop_precision": 0.9315068493150684,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8831168831168831,
+      "accuracy": 0.9814241486068112,
+      "premature_stop_rate": 0.005159958720330237,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.5700000000000001,
+      "stop_precision": 0.918918918918919,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8774193548387097,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.006191950464396285,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.5800000000000001,
+      "stop_precision": 0.918918918918919,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8774193548387097,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.006191950464396285,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.59,
+      "stop_precision": 0.9066666666666666,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8717948717948718,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.007223942208462332,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.6,
+      "stop_precision": 0.9066666666666666,
+      "stop_recall": 0.8395061728395061,
+      "stop_f1": 0.8717948717948718,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.007223942208462332,
+      "over_search_rate": 0.013415892672858616
+    },
+    {
+      "threshold": 0.61,
+      "stop_precision": 0.9078947368421053,
+      "stop_recall": 0.8518518518518519,
+      "stop_f1": 0.8789808917197452,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.007223942208462332,
+      "over_search_rate": 0.01238390092879257
+    },
+    {
+      "threshold": 0.62,
+      "stop_precision": 0.8961038961038961,
+      "stop_recall": 0.8518518518518519,
+      "stop_f1": 0.8734177215189873,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.008255933952528379,
+      "over_search_rate": 0.01238390092879257
+    },
+    {
+      "threshold": 0.63,
+      "stop_precision": 0.8961038961038961,
+      "stop_recall": 0.8518518518518519,
+      "stop_f1": 0.8734177215189873,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.008255933952528379,
+      "over_search_rate": 0.01238390092879257
+    },
+    {
+      "threshold": 0.64,
+      "stop_precision": 0.8860759493670886,
+      "stop_recall": 0.8641975308641975,
+      "stop_f1": 0.875,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.009287925696594427,
+      "over_search_rate": 0.011351909184726523
+    },
+    {
+      "threshold": 0.65,
+      "stop_precision": 0.8780487804878049,
+      "stop_recall": 0.8888888888888888,
+      "stop_f1": 0.8834355828220859,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.010319917440660475,
+      "over_search_rate": 0.009287925696594427
+    },
+    {
+      "threshold": 0.66,
+      "stop_precision": 0.8674698795180723,
+      "stop_recall": 0.8888888888888888,
+      "stop_f1": 0.8780487804878049,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.011351909184726523,
+      "over_search_rate": 0.009287925696594427
+    },
+    {
+      "threshold": 0.67,
+      "stop_precision": 0.8690476190476191,
+      "stop_recall": 0.9012345679012346,
+      "stop_f1": 0.8848484848484849,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.011351909184726523,
+      "over_search_rate": 0.008255933952528379
+    },
+    {
+      "threshold": 0.68,
+      "stop_precision": 0.8690476190476191,
+      "stop_recall": 0.9012345679012346,
+      "stop_f1": 0.8848484848484849,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.011351909184726523,
+      "over_search_rate": 0.008255933952528379
+    },
+    {
+      "threshold": 0.6900000000000001,
+      "stop_precision": 0.8690476190476191,
+      "stop_recall": 0.9012345679012346,
+      "stop_f1": 0.8848484848484849,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.011351909184726523,
+      "over_search_rate": 0.008255933952528379
+    },
+    {
+      "threshold": 0.7000000000000001,
+      "stop_precision": 0.8588235294117647,
+      "stop_recall": 0.9012345679012346,
+      "stop_f1": 0.8795180722891566,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.01238390092879257,
+      "over_search_rate": 0.008255933952528379
+    },
+    {
+      "threshold": 0.7100000000000001,
+      "stop_precision": 0.8604651162790697,
+      "stop_recall": 0.9135802469135802,
+      "stop_f1": 0.8862275449101796,
+      "accuracy": 0.9803921568627451,
+      "premature_stop_rate": 0.01238390092879257,
+      "over_search_rate": 0.007223942208462332
+    },
+    {
+      "threshold": 0.72,
+      "stop_precision": 0.8505747126436781,
+      "stop_recall": 0.9135802469135802,
+      "stop_f1": 0.8809523809523809,
+      "accuracy": 0.9793601651186791,
+      "premature_stop_rate": 0.013415892672858616,
+      "over_search_rate": 0.007223942208462332
+    },
+    {
+      "threshold": 0.73,
+      "stop_precision": 0.8314606741573034,
+      "stop_recall": 0.9135802469135802,
+      "stop_f1": 0.8705882352941177,
+      "accuracy": 0.977296181630547,
+      "premature_stop_rate": 0.015479876160990712,
+      "over_search_rate": 0.007223942208462332
+    },
+    {
+      "threshold": 0.74,
+      "stop_precision": 0.8222222222222222,
+      "stop_recall": 0.9135802469135802,
+      "stop_f1": 0.8654970760233918,
+      "accuracy": 0.9762641898864809,
+      "premature_stop_rate": 0.016511867905056758,
+      "over_search_rate": 0.007223942208462332
+    },
+    {
+      "threshold": 0.75,
+      "stop_precision": 0.8241758241758241,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.872093023255814,
+      "accuracy": 0.977296181630547,
+      "premature_stop_rate": 0.016511867905056758,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.76,
+      "stop_precision": 0.8064516129032258,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.8620689655172413,
+      "accuracy": 0.9752321981424149,
+      "premature_stop_rate": 0.018575851393188854,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.77,
+      "stop_precision": 0.7894736842105263,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.8522727272727273,
+      "accuracy": 0.9731682146542827,
+      "premature_stop_rate": 0.02063983488132095,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.78,
+      "stop_precision": 0.78125,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.847457627118644,
+      "accuracy": 0.9721362229102167,
+      "premature_stop_rate": 0.021671826625386997,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.79,
+      "stop_precision": 0.78125,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.847457627118644,
+      "accuracy": 0.9721362229102167,
+      "premature_stop_rate": 0.021671826625386997,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.8,
+      "stop_precision": 0.7653061224489796,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.8379888268156425,
+      "accuracy": 0.9700722394220846,
+      "premature_stop_rate": 0.023735810113519093,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.81,
+      "stop_precision": 0.7575757575757576,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.8333333333333334,
+      "accuracy": 0.9690402476780186,
+      "premature_stop_rate": 0.02476780185758514,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.8200000000000001,
+      "stop_precision": 0.7425742574257426,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.8241758241758241,
+      "accuracy": 0.9669762641898865,
+      "premature_stop_rate": 0.026831785345717233,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.8300000000000001,
+      "stop_precision": 0.7281553398058253,
+      "stop_recall": 0.9259259259259259,
+      "stop_f1": 0.8152173913043478,
+      "accuracy": 0.9649122807017544,
+      "premature_stop_rate": 0.02889576883384933,
+      "over_search_rate": 0.006191950464396285
+    },
+    {
+      "threshold": 0.8400000000000001,
+      "stop_precision": 0.7169811320754716,
+      "stop_recall": 0.9382716049382716,
+      "stop_f1": 0.8128342245989305,
+      "accuracy": 0.9638802889576883,
+      "premature_stop_rate": 0.030959752321981424,
+      "over_search_rate": 0.005159958720330237
+    },
+    {
+      "threshold": 0.85,
+      "stop_precision": 0.7102803738317757,
+      "stop_recall": 0.9382716049382716,
+      "stop_f1": 0.8085106382978723,
+      "accuracy": 0.9628482972136223,
+      "premature_stop_rate": 0.03199174406604747,
+      "over_search_rate": 0.005159958720330237
+    },
+    {
+      "threshold": 0.86,
+      "stop_precision": 0.6785714285714286,
+      "stop_recall": 0.9382716049382716,
+      "stop_f1": 0.7875647668393783,
+      "accuracy": 0.957688338493292,
+      "premature_stop_rate": 0.03715170278637771,
+      "over_search_rate": 0.005159958720330237
+    },
+    {
+      "threshold": 0.87,
+      "stop_precision": 0.6814159292035398,
+      "stop_recall": 0.9506172839506173,
+      "stop_f1": 0.7938144329896907,
+      "accuracy": 0.9587203302373581,
+      "premature_stop_rate": 0.03715170278637771,
+      "over_search_rate": 0.0041279669762641896
+    },
+    {
+      "threshold": 0.88,
+      "stop_precision": 0.6695652173913044,
+      "stop_recall": 0.9506172839506173,
+      "stop_f1": 0.7857142857142857,
+      "accuracy": 0.9566563467492261,
+      "premature_stop_rate": 0.0392156862745098,
+      "over_search_rate": 0.0041279669762641896
+    },
+    {
+      "threshold": 0.89,
+      "stop_precision": 0.6554621848739496,
+      "stop_recall": 0.9629629629629629,
+      "stop_f1": 0.78,
+      "accuracy": 0.9545923632610939,
+      "premature_stop_rate": 0.04231166150670795,
+      "over_search_rate": 0.0030959752321981426
+    },
+    {
+      "threshold": 0.9,
+      "stop_precision": 0.639344262295082,
+      "stop_recall": 0.9629629629629629,
+      "stop_f1": 0.7684729064039408,
+      "accuracy": 0.9514963880288958,
+      "premature_stop_rate": 0.04540763673890609,
+      "over_search_rate": 0.0030959752321981426
+    },
+    {
+      "threshold": 0.91,
+      "stop_precision": 0.626984126984127,
+      "stop_recall": 0.9753086419753086,
+      "stop_f1": 0.7632850241545893,
+      "accuracy": 0.9494324045407637,
+      "premature_stop_rate": 0.048503611971104234,
+      "over_search_rate": 0.0020639834881320948
+    },
+    {
+      "threshold": 0.92,
+      "stop_precision": 0.6171875,
+      "stop_recall": 0.9753086419753086,
+      "stop_f1": 0.7559808612440191,
+      "accuracy": 0.9473684210526315,
+      "premature_stop_rate": 0.05056759545923633,
+      "over_search_rate": 0.0020639834881320948
+    },
+    {
+      "threshold": 0.93,
+      "stop_precision": 0.5895522388059702,
+      "stop_recall": 0.9753086419753086,
+      "stop_f1": 0.7348837209302326,
+      "accuracy": 0.9411764705882353,
+      "premature_stop_rate": 0.05675954592363261,
+      "over_search_rate": 0.0020639834881320948
+    },
+    {
+      "threshold": 0.9400000000000001,
+      "stop_precision": 0.5642857142857143,
+      "stop_recall": 0.9753086419753086,
+      "stop_f1": 0.7149321266968326,
+      "accuracy": 0.934984520123839,
+      "premature_stop_rate": 0.0629514963880289,
+      "over_search_rate": 0.0020639834881320948
+    },
+    {
+      "threshold": 0.9500000000000001,
+      "stop_precision": 0.5374149659863946,
+      "stop_recall": 0.9753086419753086,
+      "stop_f1": 0.6929824561403509,
+      "accuracy": 0.9277605779153767,
+      "premature_stop_rate": 0.07017543859649122,
+      "over_search_rate": 0.0020639834881320948
+    },
+    {
+      "threshold": 0.9600000000000001,
+      "stop_precision": 0.4759036144578313,
+      "stop_recall": 0.9753086419753086,
+      "stop_f1": 0.6396761133603239,
+      "accuracy": 0.9081527347781218,
+      "premature_stop_rate": 0.08978328173374613,
+      "over_search_rate": 0.0020639834881320948
+    },
+    {
+      "threshold": 0.97,
+      "stop_precision": 0.43956043956043955,
+      "stop_recall": 0.9876543209876543,
+      "stop_f1": 0.6083650190114068,
+      "accuracy": 0.8937048503611971,
+      "premature_stop_rate": 0.10526315789473684,
+      "over_search_rate": 0.0010319917440660474
+    },
+    {
+      "threshold": 0.98,
+      "stop_precision": 0.40298507462686567,
+      "stop_recall": 1.0,
+      "stop_f1": 0.574468085106383,
+      "accuracy": 0.8761609907120743,
+      "premature_stop_rate": 0.1238390092879257,
+      "over_search_rate": 0.0
+    },
+    {
+      "threshold": 0.99,
+      "stop_precision": 0.3306122448979592,
+      "stop_recall": 1.0,
+      "stop_f1": 0.49693251533742333,
+      "accuracy": 0.8307533539731682,
+      "premature_stop_rate": 0.1692466460268318,
+      "over_search_rate": 0.0
+    }
+  ]
+}
